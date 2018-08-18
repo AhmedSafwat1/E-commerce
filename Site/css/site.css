@@ -1,0 +1,167 @@
+/* update bootstrap */
+
+.navbar-dark .navbar-nav.dropdown .nav-link:hover,
+.navbar-dark .navbar-nav.dropdown .nav-link:focus,
+.navbar-dark .navbar-nav.dropdown .nav-link,
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background-color: #3498db !important;
+    color: #efd9d9;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    min-width: 13rem;
+    right: -3px;
+    left: inherit;
+    top: 95%;
+    border-top: none;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #343a40;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #5886b5;
+    color: #fff;
+}
+
+
+/* end update the boostrap  */
+
+
+/* start the upper bar */
+
+.upper-bar {
+    padding: 10px;
+    background-color: #fff;
+}
+
+
+/* end the upper bar */
+
+
+/* item display in categories */
+
+.items {
+    position: relative;
+}
+
+.items .items-price {
+    position: absolute;
+    background: #7344a5;
+    color: #fff;
+    font-size: 21px;
+    padding: 8px;
+    padding-left: 11px;
+    top: 10px;
+    border-radius: 35px 0 0 35px;
+}
+
+
+/* end */
+
+
+/* start login  */
+
+.login-page form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.login-page .h1 {
+    color: #C0c0c0 !important;
+}
+
+.login-page .h1 span {
+    cursor: pointer;
+}
+
+.login-page .form-group {
+    position: relative;
+}
+
+.asterisk {
+    font-size: 30px;
+    position: absolute;
+    right: 12px;
+    ;
+    top: 5px;
+    color: red;
+}
+
+.login-page .signup {
+    display: none;
+}
+
+.login-page [data-class="login"].activeform {
+    color: #007bff;
+}
+
+.login-page [data-class='signup'].activeform {
+    color: #28a745;
+}
+
+
+/* end  */
+
+
+/* items */
+
+.selectboxit-container {
+    width: 100%!important;
+}
+
+.selectboxit-container .selectboxit {
+    width: 100%!important;
+}
+
+.selectboxit-container span,
+.selectboxit-container .selectboxit-options a {
+    height: 40px !important;
+}
+
+.items .asterisk {
+    right: 24px !important;
+}
+
+.status {
+    position: absolute;
+    background-color: #b59f12ed;
+    padding: 5px;
+    color: #fff;
+    top: 68px;
+}
+
+
+/* end */
+
+
+/* vie the items */
+
+.com {
+    position: relative;
+    padding: 10px;
+    background-color: #a5a8d7;
+    color: #02170c;
+}
+
+.com::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-color: #a93d3d03 #a5a8d7 transparent transparent;
+    border-style: solid;
+    position: absolute;
+    top: 25px;
+    left: -30px
+}
+
+
+/* rnd  */

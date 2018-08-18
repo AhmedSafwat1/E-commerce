@@ -1,0 +1,271 @@
+/* main Rulez */
+
+body {
+    background-color: #f4f4f4;
+}
+
+.active {
+    background-color: red !important;
+}
+
+.asterisk {
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    ;
+    top: 5px;
+    color: red;
+}
+
+.cat span {
+    padding: 10px;
+}
+
+.show-pass {
+    position: absolute;
+    right: -27px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.strip li {
+    transition: all .6s ease-in-out;
+}
+
+.strip li:hover {
+    background-color: #ccc !important;
+    border-color: #ccc;
+}
+
+.main-table {
+    background-color: #fff !important;
+}
+
+.table {
+    box-shadow: 0 3px 34px #ccc;
+    -webkit-box-shadow: 0 3px 34px #ccc;
+    -moz-box-shadow: 0 3px 34px #ccc;
+    -o-box-shadow: 0 3px 34px #ccc;
+}
+
+.main-table td,
+.main-table th {
+    vertical-align: middle !important;
+}
+
+.main-table .btn,
+.editing .btn {
+    padding: 3px 10px !important;
+}
+
+.hover-mker {
+    overflow: hidden;
+    transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+}
+
+.hover-mker:hover {
+    background-color: #cae0e0;
+}
+
+.hover-mker:hover .hidden-button {
+    right: 0px;
+}
+
+.hidden-button {
+    position: relative;
+    right: -300px;
+    transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+}
+
+.ful-view {
+    display: none;
+}
+
+.toolipt {
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.toolipt::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-color: transparent transparent #343a40 transparent;
+    border-width: 15px;
+    border-style: solid;
+    top: -30px;
+    left: 0px;
+}
+
+
+/* end main Rulez */
+
+
+/* update bootstrtap */
+
+.custom-file-input.is-invalid~.custom-file-control,
+.was-validated .custom-file-input:invalid~.custom-file-control {
+    border-color: #dc3545;
+}
+
+.form-control {
+    position: relative;
+}
+
+.navbar-dark .navbar-nav.dropdown .nav-link:hover,
+.navbar-dark .navbar-nav.dropdown .nav-link:focus,
+.navbar-dark .navbar-nav.dropdown .nav-link,
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background-color: #3498db !important;
+    color: #efd9d9;
+}
+
+.custom-file-control {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: #495057;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    min-width: 13rem;
+    right: -3px;
+    left: inherit;
+    top: 95%;
+    border-top: none;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #343a40;
+}
+
+.head-view {
+    color: #868686;
+}
+
+.selectboxit-container {
+    width: 100%!important;
+}
+
+.selectboxit-container .selectboxit {
+    width: 100%!important;
+}
+
+.selectboxit-container span,
+.selectboxit-container .selectboxit-options a {
+    height: 40px !important;
+}
+
+.sub-delete {
+    display: none;
+}
+
+.img-small {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* end update bootstrap */
+
+
+/* start home page */
+
+.home-stat .stat {
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.home-stat .stat a {
+    text-decoration: None;
+    color: inherit;
+}
+
+.home-stat .stat-members {
+    background-color: #3498db;
+}
+
+.home-stat .stat-pinding {
+    background-color: #c0392b;
+}
+
+.home-stat .stat-item {
+    background-color: #d35400;
+}
+
+.home-stat .stat-comments {
+    background-color: #8e44ad;
+}
+
+.home-stat .stat span {
+    display: block;
+    font-size: 60px;
+}
+
+.plus-info {
+    cursor: pointer;
+    color: #999;
+    transition: color .7s ease-in;
+}
+
+.plus-info:hover {
+    color: black;
+}
+
+.latest .card {
+    margin-bottom: 20px;
+}
+
+.latest .card-body {
+    display: none;
+}
+
+
+/* end home page */
+
+
+/* start login form*/
+
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login h4 {
+    color: #888;
+}
+
+.login .form-control {
+    background-color: #e5e5e5
+}
+
+.login .btn {
+    background-color: #0088de;
+}
+
+
+/* en d login form */
